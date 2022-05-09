@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Meu site</title>
+    <link rel="icon" href="imagens/imagemicon.png">
+    
+   <!-- bootstrap - link cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet">
+
+    <!--Arquivo externo JavaScript-->
+    <script type="text/javascript" src="jsMeuSite.js"></script>
+
+</head>
+
+<body>
+
+  <!---------------------------------------BARRA DE NAVEGAÇÃO------------------------------------------------------------------------->
+
+  <nav class="navbar navbar-fixed-top navbar-transparente">
+    <div class="container">
+
+        <!--header -->
+        <div class="navbar-header">
+
+        <!-- botao toggle-->
+        <button type="button" class="navbar-toggle collapsed" 
+                data-toggle="collapse" data-target="#barra-navegacao">
+                <span class="sr-only">Alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>  
+
+            <a href="index.html" class="navbar-brand">
+                <span class="logo">Meu site</span>
+            </a>
+
+        </div> <!--NAVBAR-HEADER-->
+
+        <!-- navbar-->
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+
+            <ul class="nav navbar-nav navbar-right cor-letra">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Receitas.html">Receitas</a></li>                   
+            </ul>
+
+        </div>
+       
+    </div> <!-- container-->
+</nav>
+
+    <!----------------------------------------CAPA PRINCIPAL------------------------------------------------------------------------>
+    <div class="capa">
+        <div class="texto-capa">
+            <input type="button" class="btn custom btn-lg botao-voltar" value="Voltar" onclick="redirecionamento8()" />
+           <div class="receita">
+            <h1 class="texto-receitas">Bolo de Fubá Cremoso</h1>
+
+               <div class="container">
+                 <div class="row">
+
+                    <div class="col-md-4">
+                        <img class="foto-receita" src="imagens/receita3.png">
+                    </div> <!--col md 4-->
+
+                    <div class="col-md-4">
+                        <h2 class="texto-ing">Ingredientes</h2> <br />
+                           <ul class="lista">
+                            <li>4 xícaras (chá) de Leite</li>
+                            <li>4 ovos</li>
+                            <li>2 xícaras (chá) de açúcar</li>
+                            <li>2 colheres (sopa) de manteiga</li>
+                            <li>1 xícara (chá) de queijo parmesão ralado</li>
+                            <li>1 e meia xícara (chá) de fubá</li>
+                            <li>2 colheres (sopa) de farinha de trigo</li>
+                            <li>1 colher (sopa) de fermento em pó</li>
+                           </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h2 class="texto-ing">Modo de preparo</h2> <br />
+                          <ul class="lista">
+                             <li>Em um liquidificador, bata o Leite, os ovos, o açúcar, a manteiga e o queijo parmesão ralado.</li>
+                             <li>Acrescente o fubá, a farinha de trigo e o fermento em pó e bata até ficar homogêneo.</li>
+                             <li>Coloque em forma retangular (20 cm x 30 cm) untada com manteiga e polvilhada com fubá e leve ao forno médio (180°C), preaquecido, por cerca de 30 minutos.</li>
+                    </div>
+
+                 </div> <!--row-->
+               </div> <!--container-->
+
+           </div> <!--class receita-->
+        </div>
+    </div>
+           
+<!-----------------------------------------RODAPÉ----------------------------------------------------------------->
+<footer id="rodape">
+
+    <div class="container">
+        <div class="row">
+                <h2 class="texto-rodape">ESPERAMOS QUE TENHA GOSTADO!</h2>
+
+            <div class="col-md-6">
+                 <h4 class="h4" onclick="redirecionamento1()">HOME</h4>
+                 <h4 class="h4" onclick="redirecionamento()">RECEITAS</h4>
+            </div>
+
+        </div> <!--ROW-->
+    </div> <!--CONTAINER-->
+
+</footer>
+
+
+
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</body>
+
+</html>

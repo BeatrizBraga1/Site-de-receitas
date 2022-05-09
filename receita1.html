@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Meu site</title>
+    <link rel="icon" href="imagens/imagemicon.png">
+    
+   <!-- bootstrap - link cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet">
+
+    <!--Arquivo externo JavaScript-->
+    <script type="text/javascript" src="jsMeuSite.js"></script>
+
+</head>
+
+<body>
+        <!---------------------------------------BARRA DE NAVEGAÇÃO------------------------------------------------------------------------->
+
+        <nav class="navbar navbar-fixed-top navbar-transparente">
+            <div class="container">
+    
+                <!--header -->
+                <div class="navbar-header">
+    
+                <!-- botao toggle-->
+                <button type="button" class="navbar-toggle collapsed" 
+                        data-toggle="collapse" data-target="#barra-navegacao">
+                        <span class="sr-only">Alternar navegação</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>  
+    
+                    <a href="index.html" class="navbar-brand">
+                        <span class="logo">Meu site</span>
+                    </a>
+    
+                </div> <!--NAVBAR-HEADER-->
+    
+                <!-- navbar-->
+                <div class="collapse navbar-collapse" id="barra-navegacao">
+    
+                    <ul class="nav navbar-nav navbar-right cor-letra">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Receitas.html">Receitas</a></li>                   
+                    </ul>
+    
+                </div>
+               
+            </div> <!-- container-->
+        </nav>
+    
+    <!----------------------------------------CAPA PRINCIPAL------------------------------------------------------------------------>
+    <div class="capa">
+        <div class="texto-capa">
+            <input type="button" class="btn custom btn-lg botao-voltar" value="Voltar" onclick="redirecionamento8()" />
+           <div class="receita">
+            <h1 class="texto-receitas">Bolinho de Arroz</h1>
+
+               <div class="container">
+                 <div class="row">
+
+                    <div class="col-md-4">
+                        <img class="foto-receita" src="imagens/receita1.png">
+                    </div> <!--col md 4-->
+
+                    <div class="col-md-4">
+                        <h2 class="texto-ing">Ingredientes</h2> <br />
+                        <ul class="lista">
+                            <li>1 xícara de arroz cozido</li>
+                            <li>1 ovo</li>
+                            <li>1 xícara de farinha de trigo</li>
+                            <li>1 xícara de leite</li>
+                            <li>1 colher (sobremesa) de sal</li>
+                            <li>Salsinha e cebolinha a gosto</li>
+                            <li>1/2 xícara de queijo parmesão</li>
+                            <li>1/2 xícara de linguiça calabresa picada</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h2 class="texto-ing">Modo de preparo</h2> <br />
+                        <ul class="lista">
+                            <li>Misture todos os ingredientes numa vasilha.</li>
+                            <li>Pegue a massa com uma colher (sopa).</li>
+                            <li>Frite os bolinhos em óleo.</li>
+                            <li>Coloque os bolinhos em papel toalha para que absorva o óleo.</li>
+                            <li>Sirva quente.</li>
+                        </ul>
+                    </div>
+
+                 </div> <!--row-->
+               </div> <!--container-->
+
+           </div> <!--class receita-->
+        </div>
+    </div>
+           
+
+<!-----------------------------------------RODAPÉ----------------------------------------------------------------->
+<footer id="rodape">
+
+    <div class="container">
+        <div class="row">
+                <h2 class="texto-rodape">ESPERAMOS QUE TENHA GOSTADO!</h2>
+
+            <div class="col-md-6">
+                 <h4 class="h4" onclick="redirecionamento1()">HOME</h4>
+                 <h4 class="h4" onclick="redirecionamento()">RECEITAS</h4>
+            </div>
+
+        </div> <!--ROW-->
+    </div> <!--CONTAINER-->
+
+</footer>
+
+
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</body>
+
+</html>

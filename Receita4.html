@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Meu site</title>
+    <link rel="icon" href="imagens/imagemicon.png">
+    
+   <!-- bootstrap - link cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet">
+
+    <!--Arquivo externo JavaScript-->
+    <script type="text/javascript" src="jsMeuSite.js"></script>
+
+</head>
+
+<body>
+
+<!---------------------------------------BARRA DE NAVEGAÇÃO------------------------------------------------------------------------->
+
+<nav class="navbar navbar-fixed-top navbar-transparente">
+    <div class="container">
+
+        <!--header -->
+        <div class="navbar-header">
+
+        <!-- botao toggle-->
+        <button type="button" class="navbar-toggle collapsed" 
+                data-toggle="collapse" data-target="#barra-navegacao">
+                <span class="sr-only">Alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>  
+
+            <a href="index.html" class="navbar-brand">
+                <span class="logo">Meu site</span>
+            </a>
+
+        </div> <!--NAVBAR-HEADER-->
+
+        <!-- navbar-->
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+
+            <ul class="nav navbar-nav navbar-right cor-letra">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Receitas.html">Receitas</a></li>                   
+            </ul>
+
+        </div>
+       
+    </div> <!-- container-->
+</nav>
+
+    <!----------------------------------------CAPA PRINCIPAL------------------------------------------------------------------------>
+    <div class="capa">
+        <div class="texto-capa">
+            <input type="button" class="btn custom btn-lg botao-voltar" value="Voltar" onclick="redirecionamento8()" />
+           <div class="receita">
+            <h1 class="texto-receitas">Cheesecake de Morango</h1>
+
+               <div class="container">
+                 <div class="row">
+
+                    <div class="col-md-4">
+                        <img class="foto-receita" src="imagens/receita4.png">
+                    </div> <!--col md 4-->
+
+                    <div class="col-md-4">
+                        <h2 class="texto-ing">Ingredientes</h2> <br />
+                            <ul class="lista">
+                                <li>1 pacote de biscoito maisena</li>
+                                <li>1/2 xícara de chá de açúcar passado na peneira</li>
+                                <li>100 g de manteiga ou margarina em temperatura ambiente</li>
+                                <li>400 g de queijo cremoso (cream cheese)</li>
+                                <li>1 lata de leite condensado</li>
+                                <li>3 ovos</li>
+                                <li>230 g de geléia de morango</li>
+                            </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h2 class="texto-ing">Modo de preparo</h2> <br />
+                            <ul class="lista">
+                                <li>Bata o biscoito no liqüidificador até virar farinha.</li>
+                                <li>Junte o açúcar e a manteiga.</li>
+                                <li>Amasse até virar farofa.</li>
+                                <li>Aperte a farofa no funde de uma fôma desmontável.</li>
+                                <li>No liqüidificador, bata o queijo cremoso, o leite condensado e os ovos.</li>
+                                <li>Despeje sobre a massa e junte a geléia de morango.</li>
+                                <li>Colocar em fono médio por 30 minutos.</li>
+                            </ul>
+                    </div>
+
+                 </div> <!--row-->
+               </div> <!--container-->
+
+           </div> <!--class receita-->
+        </div>
+    </div>
+           
+<!-----------------------------------------RODAPÉ----------------------------------------------------------------->
+<footer id="rodape">
+
+    <div class="container">
+        <div class="row">
+                <h2 class="texto-rodape">ESPERAMOS QUE TENHA GOSTADO!</h2>
+
+            <div class="col-md-6">
+                 <h4 class="h4" onclick="redirecionamento1()">HOME</h4>
+                 <h4 class="h4" onclick="redirecionamento()">RECEITAS</h4>
+            </div>
+
+        </div> <!--ROW-->
+    </div> <!--CONTAINER-->
+
+</footer>
+
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</body>
+
+</html>

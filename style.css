@@ -1,0 +1,158 @@
+
+
+
+html, body {
+	height: 100%;
+	overflow: auto;
+}
+
+/* -----------------------------------------------------------BARRA DE NAV----------------------------------------------------------------*/
+nav.navbar-transparente{
+    padding: 10px 0px;
+    background: #ee7388 ;
+    opacity: 0.6;
+    /* #ee7388*/
+
+}
+
+.logo{
+    font-size: 30px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: -10px; color: #f3526d;
+}
+
+nav a{
+    color: black;
+    font-size: large;
+}
+
+nav a:hover{
+    color: #ee7388;
+    font-size: large;
+}
+
+/*-------------------------------------------------------FUNDO---------------------------------------------------------*/
+body{
+    background: url('imagens/imagemfundo.png');
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+/*-----------------------------------------------------CAPA PRINCIPAL-----------------------------------------------------------*/
+.capa{
+    height: 100%;
+}
+
+.texto-capa{
+    padding: 60px;
+    text-align: center;
+    color: black;
+    font-family:'Brush Script MT', cursive;
+}
+
+#h1 {
+    font-size: 100px;
+    font-weight: 900;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    font-size: -20px; color: #ee7388;
+}
+
+/*-------------------------------------------------SERVIÇOS-----------------------------------------------------------------------------*/
+#servicos{
+   /*background: white; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.mini{
+    border: 10px solid #ee7388;
+    border-radius: 50px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+/*---------------------FOTOS------------------------*/
+.fotos{
+    width: 200px;
+    height: 200px;
+}
+
+.fotos:hover {
+    width: 300px;
+    height:300px;
+}
+
+/*--------------------------------------------------------------------BOTOES--------------------------------------------------------------*/
+.custom{
+    color: white;
+    background: #f3526d;
+}
+
+.botao-voltar{
+    float: right;
+    margin-top: 20px;
+}
+
+.botao-modal{
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*-----------------------------------------------------------------RODAPE-----------------------------------------------------------*/
+footer{
+    background: #ee7388;
+    padding: 50px 0px 20px 0px;
+    margin-top: 300px;
+}
+
+.texto-rodape {
+    color: white;
+}
+
+.h4{
+    padding: 50px 0px 0px 30px;
+    font-weight: bold;
+}
+
+.h4:hover {
+    color: white;
+}
+
+/*---------------------------------------------------PAGINA DAS RECEITAS---------------------------------------------------------------------*/
+
+.receita{
+    background-color: #fff;
+    margin-top: 80px;
+    padding: 10px;
+
+}
+
+.foto-receita{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+}
+
+.texto-receitas{
+    font-size: 80px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: -20px; color:#f3526d;
+}
+
+.texto-ing{
+    color:gray;
+
+}
+
+.lista{
+    text-align: left;
+    font-size: 18px;
+}
